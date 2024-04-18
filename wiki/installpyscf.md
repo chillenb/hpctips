@@ -16,7 +16,7 @@ the line `MY_NEW_ENV_NAME="my_new_env"` to set the new environment's name, then 
     salloc -c 4 --time 02:00:00
     ```
     in your tmux to start an interactive session on the `devel` partition.
-    * If you decide to use the login node for the following steps, you might run into resource limits.
+    * If you skip step 3 and decide to use the login node for the following steps, you might run into resource limits.
 
 4. Grace has Conda installed. Load it via: `module load miniconda`
     ![image](imgs/install_step4.png)
