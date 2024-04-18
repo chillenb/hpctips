@@ -47,7 +47,7 @@ the line `MY_NEW_ENV_NAME="my_new_env"` to set the new environment's name, then 
     pip install mpi4py
     ```
 
-10. If you are going to be using fcdmft, then you must also install cvxpy:
+10. If you want to use fcdmft, then you must also install cvxpy:
     ```
     conda install cvxpy -c conda-forge
     ```
