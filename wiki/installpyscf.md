@@ -1,6 +1,11 @@
 How to install PySCF on Grace
 =============================
 
+### Shortcut -- batch installation
+I've written a [Slurm batch script](installpyscf.slurm) that does everything described below. Just change
+the line `MY_NEW_ENV_NAME="my_new_env"` to set the new environment's name, then run `sbatch installpyscf.slurm`.
+
+### Interactive installation
 1. Log into Grace. Get a terminal session going. DON'T use Jupyter Lab; use a regular plain old terminal.
 2. Run `tmux`. This will allow your session to survive if your network connection gets cut. 
     * To leave tmux (but keep the session alive), you can type `Ctrl-B D`. To return, run `tmux attach`.
